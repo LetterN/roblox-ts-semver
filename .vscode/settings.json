@@ -1,0 +1,20 @@
+{
+	"typescript.tsdk": "node_modules/typescript/lib",
+	"search.exclude": {
+		"**/.yarn": true,
+		"**/.pnp.*": true
+	},
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true
+	},
+	"files.insertFinalNewline": true,
+	"gitlens.advanced.blame.customArguments": ["-w"],
+	"[typescript]": {
+		"editor.defaultFormatter": "dbaeumer.vscode-eslint",
+		"editor.formatOnSave": true
+	},
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "dbaeumer.vscode-eslint",
+		"editor.formatOnSave": true
+	},
+}

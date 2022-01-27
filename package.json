@@ -1,0 +1,31 @@
+{
+  "name": "@rbxts/semver",
+  "version": "1.0.0",
+  "main": "out/init.lua",
+  "license": "MIT",
+  "author": {
+    "name": "LetterN"
+  },
+  "scripts": {
+    "build": "rbxtsc",
+    "watch": "rbxtsc -w",
+    "prepublishOnly": "yarn run build"
+  },
+  "types": "out/index.d.ts",
+  "files": [
+    "out"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@rbxts/compiler-types": "^1.2.3-types.1",
+    "@rbxts/types": "^1.0.571",
+    "@typescript-eslint/eslint-plugin": "^5.10.1",
+    "@typescript-eslint/parser": "^5.10.1",
+    "eslint": "^8.7.0",
+    "eslint-plugin-roblox-ts": "^0.0.32",
+    "typescript": "^4.5.5"
+  },
+  "packageManager": "yarn@3.1.1"
+}

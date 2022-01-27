@@ -1,0 +1,5 @@
+* text=auto
+
+## Treat bundles as binary and ignore them during conflicts
+.yarn/releases/**/* binary
+.yarn/plugins/**/* binary
